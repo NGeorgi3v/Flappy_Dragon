@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.sprite_img{
+    display: none;
+}
+
+#background{
+    z-index: 1;
+}
+
+#bullet_canvas{
+    z-index: 2;
+}
+
+#dragon_canvas{
+    z-index: 3;
+}
+
+#pipe_canvas{
+    z-index: 4;
+}
+
+/*
+#text-canvas{
+    z-index: 2;
+}
+
+button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-family: "Comic Sans",serif;
+    box-shadow: none;
+    color: #fff;
+    background-color: #9b59b6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px #8e44ad;
+}
+
+button:focus {
+    outline: none
+}
+
+button:hover{
+    background-color: #974db9;
+}
+
+button:active{
+    background-color: #8444a0;
+    box-shadow: 0 5px #70308b;
+    transform: translateY(5px);
+}
+
+#new_game_button{
+    position: absolute;
+    z-index: 5;
+    width: 100px;
+    height: 50px;
+    display: none;
+} */

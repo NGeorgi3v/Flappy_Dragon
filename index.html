@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flappy Dragon</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <canvas id="background"></canvas>
+    <canvas id="dragon_canvas"></canvas>
+    <canvas id="pipe_canvas"></canvas>
+    <canvas id="bullet_canvas"></canvas>
+    <!-- <canvas id="text_canvas"></canvas>
+    <button id= "new_game_button">Start</button> -->
+    <img src="./imgs/background_and_pipes/background.png" class="sprite_img" id="background_img">
+    <img src="./imgs/bird/dragon_flying.png" class="sprite_img" id="dragon_flying">
+    <img src="./imgs/bird/dragon_shoot.png" class="sprite_img" id="dragon_shoot">
+    <img src="./imgs/background_and_pipes/pipe_body.png" class="sprite_img" id="pipe_body">
+    <img src="./imgs/background_and_pipes/pipe_bottom.png" class="sprite_img" id="pipe_bottom">
+    <img src="./imgs/background_and_pipes/pipe_top.png" class="sprite_img" id="pipe_top">
+    <img src="./imgs/bird/dragon_blast.png" class="sprite_img" id="dragon_blast">
+    <script src="./script/background.js"></script>
+    <script src="./script/physical-body.js"></script>
+    <script src="./script/sprite.js"></script> 
+    <script src="./script/dragon.js"></script>
+    <script src="./script/pipe.js"></script>
+    <script src="./script/bullet.js"></script>
+    <script src="./script/main.js"></script>
+</body>
+</html>
